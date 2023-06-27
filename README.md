@@ -16,7 +16,7 @@ This demonstration is available online [here](https://regime-shifts-visualisatio
 
 ### Voilà in shell
 
-```Bash
+```bash
 voila Regime_shift_example.ipynb --strip_sources=False
 ```
 
@@ -24,13 +24,13 @@ voila Regime_shift_example.ipynb --strip_sources=False
 
 Build the Docker image:
 
-```Bash
+```bash
 sudo docker build --tag data-analysis-demo .
 ```
 
 Run with Docker compose:
 
-```Bash
+```bash
 sudo docker compose up -d
 ```
 
