@@ -1,0 +1,6 @@
+voila
+ipykernel
+pandas
+country_converter
+plotly
+numpy

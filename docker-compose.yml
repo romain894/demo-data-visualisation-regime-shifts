@@ -1,0 +1,14 @@
+services:
+  voila:
+    image: "data-analysis-demo"
+    ports:
+      - "127.0.0.1:8866:8866"
+    deploy:
+      restart_policy:
+        condition: any
+        delay: 5s
+        window: 30s
+      resources:
+        limits:
+          cpus: '1'
+          memory: 500M
