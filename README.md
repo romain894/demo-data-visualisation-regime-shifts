@@ -12,7 +12,7 @@ The code can be run by running the Jupyter Notebook. The library dependencies ar
 
 ## Voilà
 
-This demonstration is available online HERE and runs with [Voilà](https://github.com/voila-dashboards/voila)
+This demonstration is available online [here](https://regime-shifts-visualisation.demo.romainthomas.net/) and runs with [Voilà](https://github.com/voila-dashboards/voila)
 
 ### Voilà in shell
 
@@ -20,7 +20,7 @@ This demonstration is available online HERE and runs with [Voilà](https://githu
 voila Regime_shift_example.ipynb --strip_sources=False
 ```
 
-# Voilà in Docker
+### Voilà in Docker
 
 Build the Docker image:
 
